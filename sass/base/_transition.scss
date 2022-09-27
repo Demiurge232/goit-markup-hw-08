@@ -1,0 +1,43 @@
+
+.link {
+    transition: background-color var(--main-animation), color var(--main-animation),
+        fill var(--main-animation), border var(--main-animation);
+}
+
+.portfolio__link {
+    transition: box-shadow var(--main-animation);
+}
+
+.btn {
+    transition: background-color var(--main-animation), color var(--main-animation),
+        box-shadow var(--main-animation), fill var(--main-animation);
+}
+
+.agreement-checkbox__icon {
+    transition: opacity var(--main-animation), fill var(--main-animation),
+        outline var(--main-animation);
+}
+
+.registration__coment {
+    transition: border-color var(--main-animation);
+}
+
+.registration__icon { 
+    transition: fill var(--main-animation);
+}
+
+.registration__input {
+    transition: border-color var(--main-animation);
+}
+
+.modal{
+    transition: transform var(--main-animation);
+}
+
+.backdrop {
+    transition: opacity var(--main-animation);
+}
+
+.overlay{
+    transition: transform var(--main-animation);
+}

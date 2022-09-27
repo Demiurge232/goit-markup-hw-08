@@ -1,0 +1,22 @@
+.modal__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    padding: 0;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: var(--main-bg-cl);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-cl);
+    }
+}

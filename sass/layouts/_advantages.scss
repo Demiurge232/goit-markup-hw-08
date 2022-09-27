@@ -1,0 +1,35 @@
+
+.advantages {
+    @include section;
+}
+
+.advantages__list {
+    display: flex;
+    gap: var(--indent);
+}
+
+.advantages__item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.advantages__box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 120px;
+    margin: 0 0 30px;
+    border-radius: 4px;
+
+    background-color: var(--third-bg-cl);
+}
+
+.advantages__subtitle {
+    @include font-standart($fw: 700, $fs: 14px, $lh: 16px, $tt: uppercase);
+     
+    margin-bottom: 10px;
+}
+
+.advantages__text {
+    color: var(--secondary-text-cl);
+}

@@ -1,0 +1,42 @@
+.agreement-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    cursor: pointer;
+
+    margin: 0 0 30px;
+}
+
+.agreement-checkbox__label {
+    color: var(--secondary-text-cl);
+    user-select: none;
+}
+
+.agreement-checkbox__link {
+    color: var(--accent-cl);
+    user-select: none;
+}
+
+.agreement-checkbox__img--checked {
+    fill: var(--accent-cl);
+    opacity: 0;
+}
+
+
+.agreement-checkbox__input {
+    &:focus+.agreement-checkbox__icon {
+        outline: 1px solid var(--accent-cl);
+        outline-offset: 1px;
+        border-radius: 4px;
+    }
+
+    &:checked+.agreement-checkbox__icon .agreement-checkbox__img--checked {
+        opacity: 1;
+    }
+
+    &:checked+.agreement-checkbox__icon .agreement-checkbox__img--unchecked {
+        opacity: 0;
+    }
+}

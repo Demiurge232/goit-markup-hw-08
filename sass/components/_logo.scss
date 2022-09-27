@@ -1,0 +1,10 @@
+.logo {
+    text-decoration: none;
+    font-family: var(--logo-font);
+    @include font-logo;
+}
+
+.logo__span {
+    color: var(--accent-cl);
+}
+

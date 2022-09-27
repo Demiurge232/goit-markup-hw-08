@@ -1,0 +1,11 @@
+body {
+    color: var(--main-text-cl);
+    font-family: var(--main-font);
+    @include font-standart($fw: null, $fs: 14px, $lh: 24px, $ls: 0.03em, $tt: null);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

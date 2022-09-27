@@ -1,0 +1,17 @@
+.portfolio-set {
+    padding: 24px 20px;
+    border-right: var(--cart-border-cl);
+    border-bottom: var(--cart-border-cl);
+    border-left: var(--cart-border-cl);
+}
+
+.portfolio-set__subtitle {
+    @include font-standart($fw: 700, $fs: 18px, $lh: 36px, $ls: 0.06em);
+
+    margin-bottom: 4px;
+}
+
+.portfolio-set__text {
+    color: var(--secondary-text-cl);
+    @include font-standart($fs: 16px, $lh: 30px);
+}

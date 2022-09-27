@@ -1,0 +1,37 @@
+.clients {
+    @include section;
+    text-align: center;
+}
+
+.clients__title {
+    margin-bottom: 50px;
+
+    @include font-standart($fw: 700, $fs: 36px, $lh: 42px,);
+}
+
+.clients__list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients__item {
+    flex-basis: calc((100% - 150px) / 6);
+}
+
+.clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 92px;
+
+    border: 1px solid var(--socials-cl);
+    border-radius: 4px;
+    fill: var(--socials-cl);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-cl);
+        fill: var(--accent-cl);
+    }
+}

@@ -1,0 +1,34 @@
+
+.practice {
+    @include section(0 0 94px);
+}
+
+.practice__title {
+    @include font-standart($fw: 700, $fs: 36px, $lh: 42px);
+
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.practice__item {
+    position: relative;
+}
+
+.practice-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+
+    background-color: var(--bg-what-we-do);
+}
+
+.practice-box__subtitle {
+    color: var(--main-bg-cl);
+    @include font-standart($fw: 700, $lh: 16px, $tt: uppercase);
+}

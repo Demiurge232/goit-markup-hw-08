@@ -1,0 +1,23 @@
+.contacts__list {
+    display: flex;
+    gap: 50px;
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+    gap: 10px;
+
+    color: var(--secondary-text-cl);
+    @include font-standart($fw: 500, $lh: 16px, $ls: 0.02em);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-cl);
+    }
+}
+
+.contacts__icon {
+    fill: currentColor;
+}
