@@ -159,17 +159,68 @@
             </li>
           </ul>
 
-          <ul class="portfolio__list list card-set">
-            <li class="portfolio__item card-set__item">
+          <ul class="portfolio__list list">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/laptop.jpg"
-                    alt="Ноутбук з веб-сайтом"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x.webp 1x,
+                        ./images/portfolio/img_sm-@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x.jpg 1x,
+                        ./images/portfolio/img_sm-@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x.webp 1x,
+                        ./images/portfolio/img_md-@2x.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x.jpg 1x,
+                        ./images/portfolio/img_md-@2x.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x.webp 1x,
+                        ./images/portfolio/img_lg-@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x.jpg 1x,
+                        ./images/portfolio/img_lg-@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x.jpg"
+                      alt="Ноутбук з веб-сайтом"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -185,16 +236,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/basketball.jpg"
-                    alt="Баскетболісти"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-1.webp 1x,
+                        ./images/portfolio/img_sm-@2x-1.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-1.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-1.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-1.webp 1x,
+                        ./images/portfolio/img_md-@2x-1.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-1.jpg 1x,
+                        ./images/portfolio/img_md-@2x-1.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-1.webp 1x,
+                        ./images/portfolio/img_lg-@2x-1.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-1.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-1.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-1.jpg"
+                      alt="Баскетболісти"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -212,16 +314,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/seafood.jpg"
-                    alt="Риба логотип"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-2.webp 1x,
+                        ./images/portfolio/img_sm-@2x-2.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-2.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-2.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-2.webp 1x,
+                        ./images/portfolio/img_md-@2x-2.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-2.jpg 1x,
+                        ./images/portfolio/img_md-@2x-2.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-2.webp 1x,
+                        ./images/portfolio/img_lg-@2x-2.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-2.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-2.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-2.jpg"
+                      alt="Риба логотип"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -237,16 +390,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/headphones.jpg"
-                    alt="Навушники"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-3.webp 1x,
+                        ./images/portfolio/img_sm-@2x-3.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-3.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-3.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-3.webp 1x,
+                        ./images/portfolio/img_md-@2x-3.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-3.jpg 1x,
+                        ./images/portfolio/img_md-@2x-3.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-3.webp 1x,
+                        ./images/portfolio/img_lg-@2x-3.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-3.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-3.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-3.jpg"
+                      alt="Навушники"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -262,16 +466,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/box.jpg"
-                    alt="Коробки"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-4.webp 1x,
+                        ./images/portfolio/img_sm-@2x-4.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-4.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-4.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-4.webp 1x,
+                        ./images/portfolio/img_md-@2x-4.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-4.jpg 1x,
+                        ./images/portfolio/img_md-@2x-4.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-4.webp 1x,
+                        ./images/portfolio/img_lg-@2x-4.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-4.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-4.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-4.jpg"
+                      alt="Коробки"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -287,16 +542,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/monitor.jpg"
-                    alt="Монітор з веб-сайтом"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-5.webp 1x,
+                        ./images/portfolio/img_sm-@2x-5.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-5.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-5.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-5.webp 1x,
+                        ./images/portfolio/img_md-@2x-5.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-5.jpg 1x,
+                        ./images/portfolio/img_md-@2x-5.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-5.webp 1x,
+                        ./images/portfolio/img_lg-@2x-5.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-5.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-5.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-5.jpg"
+                      alt="Монітор з веб-сайтом"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -312,16 +618,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/book.jpg"
-                    alt="Книга"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-6.webp 1x,
+                        ./images/portfolio/img_sm-@2x-6.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-6.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-6.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-6.webp 1x,
+                        ./images/portfolio/img_md-@2x-6.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-6.jpg 1x,
+                        ./images/portfolio/img_md-@2x-6.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-6.webp 1x,
+                        ./images/portfolio/img_lg-@2x-6.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-6.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-6.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-6.jpg"
+                      alt="Книга"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -339,16 +696,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/label.jpg"
-                    alt="LAB"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-7.webp 1x,
+                        ./images/portfolio/img_sm-@2x-7.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-7.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-7.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-7.webp 1x,
+                        ./images/portfolio/img_md-@2x-7.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-7.jpg 1x,
+                        ./images/portfolio/img_md-@2x-7.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-7.webp 1x,
+                        ./images/portfolio/img_lg-@2x-7.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-7.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-7.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-7.jpg"
+                      alt="LAB"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -364,16 +772,67 @@
               </a>
             </li>
 
-            <li class="portfolio__item card-set__item">
+            <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    class="portfolio__img"
-                    src="./images/portfolio/all/laptop-2.jpg"
-                    alt="Ноутбук з веб-сайтом"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- width: 480px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-8.webp 1x,
+                        ./images/portfolio/img_sm-@2x-8.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_sm-@1x-8.jpg 1x,
+                        ./images/portfolio/img_sm-@2x-8.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 768px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-8.webp 1x,
+                        ./images/portfolio/img_md-@2x-8.webp 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_md-@1x-8.jpg 1x,
+                        ./images/portfolio/img_md-@2x-8.jpg 2x
+                      "
+                      media="(max-width: 1199px)"
+                      type="image/jpeg"
+                    />
+                    <!-- width: 1200px -->
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-8.webp 1x,
+                        ./images/portfolio/img_lg-@2x-8.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/img_lg-@1x-8.jpg 1x,
+                        ./images/portfolio/img_lg-@2x-8.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img_sm-@1x-8.jpg"
+                      alt="Ноутбук з веб-сайтом"
+                    />
+                  </picture>
                   <div class="overlay">
                     <p class="overlay__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
