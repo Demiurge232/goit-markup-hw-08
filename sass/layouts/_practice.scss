@@ -1,5 +1,9 @@
 
 .practice {
+    @media screen and(max-width: 1199px) {
+        display: none;
+    }
+   
     @include section(0 0 94px);
 }
 
@@ -10,8 +14,16 @@
     text-align: center;
 }
 
+.practice__list{
+    @media screen and(min-width: 1200px) {
+        @include card-set
+    }
+}
+
 .practice__item {
     position: relative;
+    
+    @include card-set__item($item: 3)
 }
 
 .practice-box {

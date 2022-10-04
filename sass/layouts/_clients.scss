@@ -1,37 +1,52 @@
 .clients {
-    @include section;
-    text-align: center;
+  @include section;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    @include section($padding: 94px 0);
+  }
 }
 
 .clients__title {
-    margin-bottom: 50px;
+  margin-bottom: 30px;
 
-    @include font-standart($fw: 700, $fs: 36px, $lh: 42px,);
+  @include font-standart($fw: 700, $fs: 28px, $lh: 33px);
+
+  @media screen and(min-width: 1200px) {
+    @include font-standart($fw: 700, $fs: 36px, $lh: 42px);
+  }
 }
 
 .clients__list {
-    display: flex;
-    gap: 30px;
+  @include card-set;
 }
 
 .clients__item {
-    flex-basis: calc((100% - 150px) / 6);
+  @include card-set__item($item: 2);
+
+  @media screen and(min-width: 768px) {
+    @include card-set__item($item: 3);
+  }
+
+  @media screen and(min-width: 1200px) {
+    @include card-set__item($item: 6);
+  }
 }
 
 .clients__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    height: 92px;
+  height: 92px;
 
-    border: 1px solid var(--socials-cl);
-    border-radius: 4px;
-    fill: var(--socials-cl);
+  border: 1px solid var(--socials-cl);
+  border-radius: 4px;
+  fill: var(--socials-cl);
 
-    &:hover,
-    &:focus {
-        border: 1px solid var(--accent-cl);
-        fill: var(--accent-cl);
-    }
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-cl);
+    fill: var(--accent-cl);
+  }
 }

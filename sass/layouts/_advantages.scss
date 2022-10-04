@@ -1,35 +1,57 @@
-
 .advantages {
-    @include section;
+  @include section;
+
+  @media screen and(min-width: 1200px) {
+    @include section($padding: 94px 0);
+  }
 }
 
 .advantages__list {
-    display: flex;
-    gap: var(--indent);
+  @media screen and (min-width: 768px) {
+    @include card-set;
+  }
 }
 
 .advantages__item {
-    flex-basis: calc((100% - 90px) / 4);
+  @media screen and(max-width: 767px) {
+    &:not(:last-child) {
+      margin: 0 0 30px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    @include card-set__item($item: 2);
+    margin: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include card-set__item($item: 4);
+  }
 }
 
 .advantages__box-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    height: 120px;
-    margin: 0 0 30px;
-    border-radius: 4px;
+  height: 120px;
+  margin: 0 0 30px;
+  border-radius: 4px;
 
-    background-color: var(--third-bg-cl);
+  background-color: var(--third-bg-cl);
 }
 
 .advantages__subtitle {
-    @include font-standart($fw: 700, $fs: 14px, $lh: 16px, $tt: uppercase);
-     
-    margin-bottom: 10px;
+  @include font-standart($fw: 700, $fs: 14px, $lh: 16px, $tt: uppercase);
+
+  text-align: center;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .advantages__text {
-    color: var(--secondary-text-cl);
+  color: var(--secondary-text-cl);
 }

@@ -1,42 +1,45 @@
 .team-box {
-    text-align: center;
-    padding-top: var(--indent);
-    padding-bottom: var(--indent);
+  text-align: center;
+  padding: 30px 0 24px;
+
+  @media screen and(min-width: 1200px) {
+    padding: 30px 0;
+  }
 }
 
 .team-box__subtitle {
-    @include font-standart($fw: 500, $fs: 16px, $lh: 19px);
+  @include font-standart($fw: 500, $fs: 16px, $lh: 19px);
 
-    margin: 0 0 10px;
+  margin: 0 0 10px;
 }
 
 .team-box__text {
-    @include font-standart( $fs: 16px, $lh: 19px);
-    color: var(--secondary-text-cl);
-    margin-bottom: 16px;
+  @include font-standart($fs: 16px, $lh: 19px);
+  color: var(--secondary-text-cl);
+  margin-bottom: 16px;
 }
 
 .team-box__list {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    gap: 10px;
+  gap: 10px;
 }
 
 .team-box__link {
-    width: 44px;
-    height: 44px;
+  width: 44px;
+  height: 44px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    fill: var(--socials-cl);
-    border-radius: 50%;
+  fill: var(--socials-cl);
+  border-radius: 50%;
 
-    &:hover,
-    &:focus {
-        background-color: var(--accent-cl);
-        fill: var(--main-bg-cl);
-    }
+  &:hover,
+  &:focus {
+    background-color: var(--accent-cl);
+    fill: var(--main-bg-cl);
+  }
 }

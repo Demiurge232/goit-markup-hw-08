@@ -2,6 +2,10 @@
     text-decoration: none;
     font-family: var(--logo-font);
     @include font-logo;
+
+    @media screen and(min-width: 1200px){
+        @include font-logo($fs: 26px, $lh: 31px)
+    }
 }
 
 .logo__span {

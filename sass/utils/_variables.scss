@@ -1,31 +1,29 @@
 :root {
-    /*bg colors*/
-    --main-bg-cl: #ffffff;
-    --cart-border-cl: 1px solid #eeeeee;
-    --header-border-cl: #ececec;
-    --secondary-bg-cl: #2f303a;
-    --bg-cl-hero: #c4c4c4;
-    --third-bg-cl: #f5f4fa;
-    --accent-cl: #2196f3;
-    --accent-cl-90: rgba(33, 150, 243, 0.9);
-    --main-page-btn-cl: #188ce8;
-    --socials-cl: #afb1b8;
-    --section-ptf-cl: #eeeeee;
-    --grad-hero: rgba(47, 48, 58, 0.4);
-    --bg-what-we-do: rgba(47, 48, 58, 0.8);
-    --bg-overlay: rgba(0, 0, 0, 0.2);
-    /*text colors */
-    --main-text-cl: #212121;
-    --secondary-text-cl: #757575;
-    --logo-cl: #000000;
-    --foter-cont-cl-60: rgba(255, 255, 255, 0.6);
-    --foter-cont-cl-10: rgba(255, 255, 255, 0.1);
-    /* fonts */
-    --main-font: 'Roboto', sans-serif;
-    --logo-font: 'Raleway', sans-serif;
-    /* other */
-    --main-bord-rad: 4px;
-    --indent: 30px;
-    --item: 3;
-    --main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*bg colors*/
+  --main-bg-cl: #ffffff;
+  --cart-border-cl: 1px solid #eeeeee;
+  --header-border-cl: #ececec;
+  --secondary-bg-cl: #2f303a;
+  --bg-cl-hero: #c4c4c4;
+  --third-bg-cl: #f5f4fa;
+  --accent-cl: #2196f3;
+  --accent-cl-90: rgba(33, 150, 243, 0.9);
+  --main-page-btn-cl: #188ce8;
+  --socials-cl: #afb1b8;
+  --section-ptf-cl: #eeeeee;
+  --grad-hero: rgba(47, 48, 58, 0.4);
+  --bg-what-we-do: rgba(47, 48, 58, 0.8);
+  --bg-overlay: rgba(0, 0, 0, 0.2);
+  /*text colors */
+  --main-text-cl: #212121;
+  --secondary-text-cl: #757575;
+  --logo-cl: #000000;
+  --foter-cont-cl-60: rgba(255, 255, 255, 0.6);
+  --foter-cont-cl-10: rgba(255, 255, 255, 0.1);
+  /* fonts */
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  /* other */
+  --main-bord-rad: 4px;
+  --main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

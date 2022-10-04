@@ -1,22 +1,21 @@
 .address__item:not(:last-child) {
-    margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .address__link--map {
-    color: var(--main-bg-cl);
+  color: var(--main-bg-cl);
 
-    &:hover,
-    &:focus {
-        color: var(--accent-cl);
-    }
-    
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .address__link {
-    color: var(--foter-cont-cl-60);
+  color: var(--foter-cont-cl-60);
 
-    &:hover,
-    &:focus {
-        color: var(--accent-cl);
-    }
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }

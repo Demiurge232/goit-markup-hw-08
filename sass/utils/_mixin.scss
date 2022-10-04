@@ -1,31 +1,40 @@
 @import './decimal';
 
-@mixin section($padding: 94px 0) {
-    padding: $padding;
+@mixin section($padding: 60px 0) {
+  padding: $padding;
 }
 
 @mixin font-standart($fw: 400, $fs: 14px, $lh: 24px, $ls: 0.03em, $tt: none) {
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: decimal-round($lh / $fs);
-    letter-spacing: 0.03em;
-    text-transform: $tt;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: decimal-round($lh / $fs);
+  letter-spacing: 0.03em;
+  text-transform: $tt;
 }
 
 @mixin font-btn($fw: 700, $fs: 16px, $lh: 30px, $ls: 0.06em) {
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: decimal-round($lh / $fs);
-    letter-spacing: $ls;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: decimal-round($lh / $fs);
+  letter-spacing: $ls;
 }
 
- 
-@mixin font-logo($fw: 700, $fs: 26px, $lh: 31px){
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: decimal-round($lh / $fs);
+@mixin font-logo($fw: 700, $fs: 24px, $lh: 28px) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: decimal-round($lh / $fs);
 }
 
-@mixin logo-color($color){
-    color: $color;
+@mixin logo-color($color) {
+  color: $color;
+}
+
+@mixin card-set($display: flex, $flex-wrap: wrap, $gap: 30px) {
+  display: $display;
+  flex-wrap: $flex-wrap;
+  gap: $gap;
+}
+
+@mixin card-set__item($gap: 30px, $item: 3) {
+  flex-basis: calc((100% - $gap * ($item - 1)) / $item);
 }
