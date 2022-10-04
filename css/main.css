@@ -422,41 +422,41 @@ p {
   margin-left: auto;
   text-align: center;
   background-color: var(--bg-cl-hero);
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/img_sm-@1x.jpg);
-  background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/img_sm-@1x.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/hero_sm-@1x.jpg);
+  background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/hero_sm-@1x.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/img_sm-@2x.jpg);
-    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/img_sm-@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/hero_sm-@2x.jpg);
+    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/hero_sm-@2x.jpg);
   }
 }
 @media screen and (min-width: 576px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/img_md-@1x.jpg);
-    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/img_md-@1x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/hero_md-@1x.jpg);
+    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/hero_md-@1x.jpg);
   }
 }
 @media screen and (min-width: 576px) and (min-device-pixel-ratio: 2), screen and (min-width: 576px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 576px) and (min-resolution: 192dpi), screen and (min-width: 576px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/img_md-@2x.jpg);
-    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/img_md-@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/hero_md-@2x.jpg);
+    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/hero_md-@2x.jpg);
   }
 }
 @media screen and (min-width: 960px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/img_lg-@1x.jpg);
-    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/img_lg-@1x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/hero_lg-@1x.jpg);
+    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/hero_lg-@1x.jpg);
     height: 600px;
   }
 }
 @media screen and (min-width: 960px) and (min-device-pixel-ratio: 2), screen and (min-width: 960px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 960px) and (min-resolution: 192dpi), screen and (min-width: 960px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/img_lg-@2x.jpg);
-    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/img_lg-@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--grad-hero)), to(var(--grad-hero))), url(../images/index/hero/hero_lg-@2x.jpg);
+    background-image: linear-gradient(to right, var(--grad-hero), var(--grad-hero)), url(../images/index/hero/hero_lg-@2x.jpg);
   }
 }
 
