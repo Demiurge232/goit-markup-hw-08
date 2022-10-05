@@ -44,6 +44,8 @@
   @media screen and(min-width: 1200px) {
     &:last-child .contacts__link {
       margin: 0;
+
+      @include font-standart($fw: 500, $fs: 14px, $lh: 16px, $ls: 0.02em);
     }
   }
 }
@@ -63,6 +65,10 @@
     display: flex;
     align-items: center;
     gap: 8px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include font-standart($fw: 500, $fs: 14px, $lh: 16px, $ls: 0.02em);
   }
 }
 

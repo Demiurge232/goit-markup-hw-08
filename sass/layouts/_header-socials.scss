@@ -1,5 +1,6 @@
 .header-socials__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 
   gap: 20px;
@@ -27,5 +28,6 @@
 }
 
 .header-socials__link {
+  @include font-standart($fw: 500, $fs: 18px, $lh: 22px, $ls: 0.02em);
   color: var(--accent-cl);
 }
